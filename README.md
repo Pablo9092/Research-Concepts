@@ -79,7 +79,7 @@ La sobrecarga de operadores nos permite redefinir un operador y realizar una ope
 que necesita hacer la llamada de un método con el uso de un operador. A continuación se  
 muestra un ejemplo de como crear una sobre carga de operadores en C#.
 
-
+:::C#
 public static Complex operator +(Complex c1, Complex c2)
 {
 	return new Complex(c1.real + c2.real, c1.imaginary + c2.imaginary);
@@ -88,10 +88,10 @@ public static Complex operator +(Complex c1, Complex c2)
 Se puede ver que crear una sobrecarga de operadores es muy similar a crear un método. De  
 tal manera que ya podriamos sumar números complejos tan solo usando el operador(+).
 
-**Los Lenguajes que soportan sobre carga de operadores son:**
--C++
--C#
--Python
+*Los Lenguajes que soportan sobre carga de operadores son:*
+- C++
+- C#
+- Python
 
 ##Función de Gradle
 
