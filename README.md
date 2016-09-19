@@ -1,6 +1,6 @@
-#TAREA 04 "INVESTIGACIÓN DE CONCEPTOS"#
+#TAREA 04 "INVESTIGACIÓN DE CONCEPTOS"
 
-##¿Qué es un patrón de diseño?##
+##¿Qué es un patrón de diseño?
 
 Son la base para la búsqueda de solución de problemas en desarrollo de software.  
 Brindan una solución ya probada y documentada a problemas de desarrollo de software que  
@@ -22,42 +22,42 @@ el patrón observer.
 
 ![Diagrama Patrón](Patron.jpg "Diagrama del patrón observer.")
 
-##Patrón Singleton##
+###Patrón Singleton
 
 Restringe la instanciación de una clase o valor de un tipo a un solo objeto. Consiste  
 en implementar un método que crea una instancia de un objeto, si y solo si no existe ya otra  
 instancia.
 
-##Patrón Factory Method##
+###Patrón Factory Method
 
 Parte del principio de que las subclases determinan la clase a implementar. Permite  
 definir objetos que no le corresponde decidir cual sera su uso final, esta decisión le  
 corresponde  a las subclases.
 
-##Patrón Builder##
+###Patrón Builder
 	
 Nos permite separar la construcción de un objeto de su representacion, con el fin de  
 poder usar el proceso de construcción para diferentes representaciones.  
 
-##Patrón Adapter##
+###Patrón Adapter
 
 Convierte una interfaz en otra.
 
-##Patrón Flyweight##
+###Patrón Flyweight
 
 Elimina la redundancia o la reduce cuando tenemos una gran cantidada de objetos con  
 informacón identica.
 
-##Patrón Iterator##
+###Patrón Iterator
 
 Define una interfaz que declara los métodos necesarios para acceder a una colección  
 de objetos sin revelar su estructura interna. 
 
-##Patrón Observer##
+###Patrón Observer
 	
 Notifca los cambios que se le hayan hecho a un objeto.
 
-##¿Qué es la herramienta ADB en Android?##
+##¿Qué es la herramienta ADB en Android?
 
 ADB(Android Debug Bridge), es una herramienta que nos permite interactuar con nuestro  
 dispositivo Android desde un oredenador. Esta herramienta nos permite mandar instrucciones a  
@@ -66,14 +66,14 @@ teléfono e inicializar en modo recovery. ADB nos permite cambiar el software de
 dispositivo con la ayuda de un USB. El ADB es indispensable para desarrollar software  
 para android.
 
-##Operador final en java##
+##Operador final en java
 
 El operador **final** nos permite crear variables que serán utilizadas durante todo  
 el programa pero que no se desea cambiar su valor. En una método evita que dicho método  
 sea redefinido por subclases. En una clase el operador final evita que se creen clases  
 derivadas de  dicha clase.
 
-##Lenguajes que soportan sobrecarga de operadores##
+##Lenguajes que soportan sobrecarga de operadores
 
 La sobrecarga de operadores nos permite redefinir un operador y realizar una operación  
 que necesita hacer la llamada de un método con el uso de un operador. A continuación se  
@@ -93,7 +93,7 @@ tal manera que ya podriamos sumar números complejos tan solo usando el operador
 -C#
 -Python
 
-##Función de Gradle##
+##Función de Gradle
 
 Gradle es un sistema de compilación que reune las mejores caracteristicas de otros sistemas  
 de compilación(como ant ymaven). Esta basado en JVM(Java Virtual Machine) lo cual nos permite  
@@ -107,7 +107,7 @@ bases que conforman Gradle.
 
 ![Diagrama Gradle](Gradle.gif "Diagrama de Gradle")
 
-##Inyección de dependencias##
+##Inyección de dependencias
 
 Es un patrón de diseño de software usado en la programación orientada a objetos, cuyo objetivo es  
 facilitar la creación de objetos, haciendo esta mas practica, útil, escalable y mejor versatilidad  
